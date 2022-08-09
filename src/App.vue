@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <folder-structure></folder-structure>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FolderStructure from './components/FolderStructure.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FolderStructure
   }
 }
 </script>
@@ -22,5 +21,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 400px;
 }
 </style>
