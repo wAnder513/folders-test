@@ -7,20 +7,13 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
-import FolderStructureItem from "./FolderStructureItem.vue";
+import { mapGetters } from 'vuex'
+import FolderStructureItem from './FolderStructureItem.vue'
 
 export default {
   components: { FolderStructureItem },
   computed: {
-    ...mapGetters({ folders: "getAllFolders"}),
-  },
-  methods: {
-
+    ...mapGetters({ folders: 'getAllFolders' })
   }
-};
+}
 </script>
-
-<style>
-
-</style>
